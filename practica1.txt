@@ -1,0 +1,494 @@
+Script started on 2022-03-05 23:06:39+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="142" LINES="38"]
+]0;usuario@usuario-X540SA: ~[01;32musuario@usuario-X540SA[00m:[01;34m~[00m$ git clone git@github.com:estharri/Practica1.git
+Clonando en 'Practica1'...
+remote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+Recibiendo objetos:  20% (1/5)Recibiendo objetos:  40% (2/5)Recibiendo objetos:  60% (3/5)remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  80% (4/5)Recibiendo objetos: 100% (5/5)Recibiendo objetos: 100% (5/5), 13.45 KiB | 6.72 MiB/s, listo.
+]0;usuario@usuario-X540SA: ~[01;32musuario@usuario-X540SA[00m:[01;34m~[00m$ cd Practica1
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ gita[K add .[Kversion1practica1.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ gt[Kt[Kit add ver[K[K[K[K[K[K[K[K[Kt commit .[K-m "Subo versi´o[K[Kón 1 [K"
+[main 0360b44] Subo versión 1
+ 1 file changed, 132 insertions(+)
+ create mode 100644 version1practica1.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git push
+Enumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 2 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 1.85 KiB | 1.85 MiB/s, listo.
+Total 3 (delta 1), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:estharri/Practica1.git
+   8b6980d..0360b44  main -> main
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git add version2practica1.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git commit -m ·[K"Subo versión 2"
+[main f277732] Subo versión 2
+ 1 file changed, 135 insertions(+)
+ create mode 100644 version2practica1.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git push
+Enumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 2 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 2.01 KiB | 1.00 MiB/s, listo.
+Total 3 (delta 1), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:estharri/Practica1.git
+   0360b44..f277732  main -> main
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git add practica1conlistadelistas.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git commit -m "Subo la versión con lista de listas"
+[main 4fe46eb] Subo la versión con lista de listas
+ 1 file changed, 132 insertions(+)
+ create mode 100644 practica1conlistadelistas.py
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ git push
+Enumerando objetos: 4, listo.
+Contando objetos:  25% (1/4)Contando objetos:  50% (2/4)Contando objetos:  75% (3/4)Contando objetos: 100% (4/4)Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 2 hilos
+Comprimiendo objetos:  33% (1/3)Comprimiendo objetos:  66% (2/3)Comprimiendo objetos: 100% (3/3)Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos:  33% (1/3)Escribiendo objetos:  66% (2/3)Escribiendo objetos: 100% (3/3)Escribiendo objetos: 100% (3/3), 1.93 KiB | 1.93 MiB/s, listo.
+Total 3 (delta 1), reusado 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:estharri/Practica1.git
+   f277732..4fe46eb  main -> main
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ python3 version1practca[K[Kica1.py
+Productor 1 almacenando 1
+Productor 2 almacenando 4
+Productor 0 almacenando 3
+Consumiendo 1 del productor 1
+result = [1]
+Productor 1 almacenando 3
+Buffer = [3, 3, 4]
+Consumiendo 3 del productor 0
+result = [1, 3]
+Productor 0 almacenando 5
+Buffer = [5, 3, 4]
+Consumiendo 3 del productor 1
+result = [1, 3, 3]
+Productor 1 almacenando 4
+Buffer = [5, 4, 4]
+Consumiendo 4 del productor 1
+result = [1, 3, 3, 4]
+Productor 1 almacenando 10
+Buffer = [5, 10, 4]
+Consumiendo 4 del productor 2
+result = [1, 3, 3, 4, 4]
+Productor 2 almacenando 10
+Buffer = [5, 10, 10]
+Consumiendo 5 del productor 0
+result = [1, 3, 3, 4, 4, 5]
+Productor 0 almacenando 6
+Buffer = [6, 10, 10]
+Consumiendo 6 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6]
+Productor 0 almacenando 8
+Buffer = [8, 10, 10]
+Consumiendo 8 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8]
+Productor 0 almacenando 10
+Buffer = [10, 10, 10]
+Consumiendo 10 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10]
+Productor 0 almacenando 11
+Buffer = [11, 10, 10]
+Consumiendo 10 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10]
+Productor 1 almacenando 14
+Buffer = [11, 14, 10]
+Consumiendo 10 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10]
+Productor 2 almacenando 13
+Buffer = [11, 14, 13]
+Consumiendo 11 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11]
+Productor 0 almacenando 15
+Buffer = [15, 14, 13]
+Consumiendo 13 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13]
+Productor 2 almacenando 15
+Buffer = [15, 14, 15]
+Consumiendo 14 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14]
+Productor 1 almacenando 17
+Buffer = [15, 17, 15]
+Consumiendo 15 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15]
+Productor 0 almacenando 17
+Buffer = [17, 17, 15]
+Consumiendo 15 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15]
+Productor 2 almacenando 19
+Buffer = [17, 17, 19]
+Consumiendo 17 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17]
+Productor 0 almacenando 21
+Buffer = [21, 17, 19]
+Consumiendo 17 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17]
+Productor 1 almacenando 23
+Buffer = [21, 23, 19]
+Consumiendo 19 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19]
+Productor 2 almacenando 22
+Buffer = [21, 23, 22]
+Consumiendo 21 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21]
+Productor 0 almacenando 27
+Buffer = [27, 23, 22]
+Consumiendo 22 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22]
+Productor 2 almacenando 26
+Buffer = [27, 23, 26]
+Consumiendo 23 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23]
+Productor 1 almacenando 27
+Buffer = [27, 27, 26]
+Consumiendo 26 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26]
+Productor 2 almacenando 27
+Buffer = [27, 27, 27]
+Consumiendo 27 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27]
+Productor 0 almacenando 32
+Buffer = [32, 27, 27]
+Consumiendo 27 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27]
+Productor 1 almacenando 30
+Buffer = [32, 30, 27]
+Consumiendo 27 del productor 2
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27]
+Buffer = [32, 30, -1]
+Consumiendo 30 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30]
+Productor 1 almacenando 34
+Buffer = [32, 34, -1]
+Consumiendo 32 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32]
+Productor 0 almacenando 35
+Buffer = [35, 34, -1]
+Consumiendo 34 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34]
+Productor 1 almacenando 36
+Buffer = [35, 36, -1]
+Consumiendo 35 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35]
+Productor 0 almacenando 41
+Buffer = [41, 36, -1]
+Consumiendo 36 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36]
+Productor 1 almacenando 40
+Buffer = [41, 40, -1]
+Consumiendo 40 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40]
+Productor 1 almacenando 42
+Buffer = [41, 42, -1]
+Consumiendo 41 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41]
+Productor 0 almacenando 42
+Buffer = [42, 42, -1]
+Consumiendo 42 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42]
+Productor 0 almacenando 44
+Buffer = [44, 42, -1]
+Consumiendo 42 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42]
+Productor 1 almacenando 45
+Buffer = [44, 45, -1]
+Consumiendo 44 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44]
+Productor 0 almacenando 45
+Buffer = [45, 45, -1]
+Consumiendo 45 del productor 0
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45]
+Buffer = [-1, 45, -1]
+Consumiendo 45 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45]
+Productor 1 almacenando 48
+Buffer = [-1, 48, -1]
+Consumiendo 48 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48]
+Productor 1 almacenando 49
+Buffer = [-1, 49, -1]
+Consumiendo 49 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49]
+Productor 1 almacenando 51
+Buffer = [-1, 51, -1]
+Consumiendo 51 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49, 51]
+Productor 1 almacenando 57
+Buffer = [-1, 57, -1]
+Consumiendo 57 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49, 51, 57]
+Productor 1 almacenando 63
+Buffer = [-1, 63, -1]
+Consumiendo 63 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49, 51, 57, 63]
+Productor 1 almacenando 64
+Buffer = [-1, 64, -1]
+Consumiendo 64 del productor 1
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49, 51, 57, 63, 64]
+Buffer = [-1, -1, -1]
+result = [1, 3, 3, 4, 4, 5, 6, 8, 10, 10, 10, 11, 13, 14, 15, 15, 17, 17, 19, 21, 22, 23, 26, 27, 27, 27, 30, 32, 34, 35, 36, 40, 41, 42, 42, 44, 45, 45, 48, 49, 51, 57, 63, 64]
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ python3 version2practica1.py
+Productor 0 almacenando 2
+Productor 0 almacenando 3
+Productor 0 almacenando 8
+Productor 0 almacenando 10
+Productor 0 almacenando 11
+Productor 0 almacenando 14
+Productor 0 almacenando 19
+Productor 0 almacenando 23
+Productor 0 almacenando 24
+Productor 0 almacenando 29
+Productor 1 almacenando 3
+Productor 1 almacenando 7
+Productor 1 almacenando 13
+Productor 1 almacenando 15
+Productor 1 almacenando 16
+Productor 1 almacenando 18
+Productor 1 almacenando 21
+Productor 1 almacenando 25
+Productor 1 almacenando 28
+Productor 1 almacenando 30
+Productor 2 almacenando 4
+Productor 2 almacenando 8
+Productor 2 almacenando 13
+Productor 2 almacenando 18
+Productor 2 almacenando 19
+Productor 2 almacenando 22
+Productor 2 almacenando 28
+Productor 2 almacenando 30
+Productor 2 almacenando 32
+Productor 2 almacenando 34
+Consumimos 2 del productor 0
+Buffer = [3, 8, 10, 11, 14, 19, 23, 24, 29, 29, 3, 7, 13, 15, 16, 18, 21, 25, 28, 30, 4, 8, 13, 18, 19, 22, 28, 30, 32, 34]
+Consumimos 3 del productor 0
+Buffer = [8, 10, 11, 14, 19, 23, 24, 29, 29, 29, 3, 7, 13, 15, 16, 18, 21, 25, 28, 30, 4, 8, 13, 18, 19, 22, 28, 30, 32, 34]
+Productor 0 almacenando 31
+Consumimos 3 del productor 1
+Productor 0 almacenando 34
+Buffer = [8, 10, 11, 14, 19, 23, 24, 29, 31, 34, 7, 13, 15, 16, 18, 21, 25, 28, 30, 30, 4, 8, 13, 18, 19, 22, 28, 30, 32, 34]
+Productor 1 almacenando 32
+Consumimos 4 del productor 2
+Productor 2 almacenando 40
+Buffer = [8, 10, 11, 14, 19, 23, 24, 29, 31, 34, 7, 13, 15, 16, 18, 21, 25, 28, 30, 32, 8, 13, 18, 19, 22, 28, 30, 32, 34, 40]
+Consumimos 7 del productor 1
+Buffer = [8, 10, 11, 14, 19, 23, 24, 29, 31, 34, 13, 15, 16, 18, 21, 25, 28, 30, 32, -1, 8, 13, 18, 19, 22, 28, 30, 32, 34, 40]
+Consumimos 8 del productor 0
+Productor 0 almacenando 37
+Buffer = [10, 11, 14, 19, 23, 24, 29, 31, 34, 34, 13, 15, 16, 18, 21, 25, 28, 30, 32, -1, 8, 13, 18, 19, 22, 28, 30, 32, 34, 40]
+Consumimos 8 del productor 2
+Productor 2 almacenando 45
+Buffer = [10, 11, 14, 19, 23, 24, 29, 31, 34, 37, 13, 15, 16, 18, 21, 25, 28, 30, 32, -1, 13, 18, 19, 22, 28, 30, 32, 34, 40, 45]
+Consumimos 10 del productor 0
+Buffer = [11, 14, 19, 23, 24, 29, 31, 34, 37, 37, 13, 15, 16, 18, 21, 25, 28, 30, 32, -1, 13, 18, 19, 22, 28, 30, 32, 34, 40, 45]
+Consumimos 11 del productor 0
+Buffer = [14, 19, 23, 24, 29, 31, 34, 37, 37, 37, 13, 15, 16, 18, 21, 25, 28, 30, 32, -1, 13, 18, 19, 22, 28, 30, 32, 34, 40, 45]
+Consumimos 13 del productor 1
+Buffer = [14, 19, 23, 24, 29, 31, 34, 37, 37, 37, 15, 16, 18, 21, 25, 28, 30, 32, -1, -1, 13, 18, 19, 22, 28, 30, 32, 34, 40, 45]
+Consumimos 13 del productor 2
+Buffer = [14, 19, 23, 24, 29, 31, 34, 37, 37, 37, 15, 16, 18, 21, 25, 28, 30, 32, -1, -1, 18, 19, 22, 28, 30, 32, 34, 40, 45, 45]
+Consumimos 14 del productor 0
+Buffer = [19, 23, 24, 29, 31, 34, 37, 37, 37, 37, 15, 16, 18, 21, 25, 28, 30, 32, -1, -1, 18, 19, 22, 28, 30, 32, 34, 40, 45, 45]
+Consumimos 15 del productor 1
+Buffer = [19, 23, 24, 29, 31, 34, 37, 37, 37, 37, 16, 18, 21, 25, 28, 30, 32, -1, -1, -1, 18, 19, 22, 28, 30, 32, 34, 40, 45, 45]
+Consumimos 16 del productor 1
+Buffer = [19, 23, 24, 29, 31, 34, 37, 37, 37, 37, 18, 21, 25, 28, 30, 32, -1, -1, -1, -1, 18, 19, 22, 28, 30, 32, 34, 40, 45, 45]
+Consumimos 18 del productor 1
+Buffer = [19, 23, 24, 29, 31, 34, 37, 37, 37, 37, 21, 25, 28, 30, 32, -1, -1, -1, -1, -1, 18, 19, 22, 28, 30, 32, 34, 40, 45, 45]
+Consumimos 18 del productor 2
+Buffer = [19, 23, 24, 29, 31, 34, 37, 37, 37, 37, 21, 25, 28, 30, 32, -1, -1, -1, -1, -1, 19, 22, 28, 30, 32, 34, 40, 45, 45, 45]
+Consumimos 19 del productor 0
+Productor 0 almacenando 42
+Productor 0 almacenando 45
+Buffer = [23, 24, 29, 31, 34, 37, 42, 37, 37, 37, 21, 25, 28, 30, 32, -1, -1, -1, -1, -1, 19, 22, 28, 30, 32, 34, 40, 45, 45, 45]
+Consumimos 19 del productor 2
+Productor 0 almacenando 49
+Buffer = [23, 24, 29, 31, 34, 37, 42, 45, 49, -1, 21, 25, 28, 30, 32, -1, -1, -1, -1, -1, 22, 28, 30, 32, 34, 40, 45, 45, 45, 45]
+Productor 2 almacenando 46
+Productor 2 almacenando 51
+Consumimos 21 del productor 1
+Productor 2 almacenando 57
+Buffer = [23, 24, 29, 31, 34, 37, 42, 45, 49, -1, 25, 28, 30, 32, -1, -1, -1, -1, -1, -1, 22, 28, 30, 32, 34, 40, 45, 46, 51, 57]
+Consumimos 22 del productor 2
+Buffer = [23, 24, 29, 31, 34, 37, 42, 45, 49, -1, 25, 28, 30, 32, -1, -1, -1, -1, -1, -1, 28, 30, 32, 34, 40, 45, 46, 51, 57, -1]
+Consumimos 23 del productor 0
+Buffer = [24, 29, 31, 34, 37, 42, 45, 49, -1, -1, 25, 28, 30, 32, -1, -1, -1, -1, -1, -1, 28, 30, 32, 34, 40, 45, 46, 51, 57, -1]
+Consumimos 24 del productor 0
+Buffer = [29, 31, 34, 37, 42, 45, 49, -1, -1, -1, 25, 28, 30, 32, -1, -1, -1, -1, -1, -1, 28, 30, 32, 34, 40, 45, 46, 51, 57, -1]
+Consumimos 25 del productor 1
+Buffer = [29, 31, 34, 37, 42, 45, 49, -1, -1, -1, 28, 30, 32, -1, -1, -1, -1, -1, -1, -1, 28, 30, 32, 34, 40, 45, 46, 51, 57, -1]
+Consumimos 28 del productor 1
+Buffer = [29, 31, 34, 37, 42, 45, 49, -1, -1, -1, 30, 32, -1, -1, -1, -1, -1, -1, -1, -1, 28, 30, 32, 34, 40, 45, 46, 51, 57, -1]
+Consumimos 28 del productor 2
+Buffer = [29, 31, 34, 37, 42, 45, 49, -1, -1, -1, 30, 32, -1, -1, -1, -1, -1, -1, -1, -1, 30, 32, 34, 40, 45, 46, 51, 57, -1, -1]
+Consumimos 29 del productor 0
+Buffer = [31, 34, 37, 42, 45, 49, -1, -1, -1, -1, 30, 32, -1, -1, -1, -1, -1, -1, -1, -1, 30, 32, 34, 40, 45, 46, 51, 57, -1, -1]
+Consumimos 30 del productor 1
+Buffer = [31, 34, 37, 42, 45, 49, -1, -1, -1, -1, 32, -1, -1, -1, -1, -1, -1, -1, -1, -1, 30, 32, 34, 40, 45, 46, 51, 57, -1, -1]
+Consumimos 30 del productor 2
+Buffer = [31, 34, 37, 42, 45, 49, -1, -1, -1, -1, 32, -1, -1, -1, -1, -1, -1, -1, -1, -1, 32, 34, 40, 45, 46, 51, 57, -1, -1, -1]
+Consumimos 31 del productor 0
+Buffer = [34, 37, 42, 45, 49, -1, -1, -1, -1, -1, 32, -1, -1, -1, -1, -1, -1, -1, -1, -1, 32, 34, 40, 45, 46, 51, 57, -1, -1, -1]
+Consumimos 32 del productor 1
+Buffer = [34, 37, 42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 32, 34, 40, 45, 46, 51, 57, -1, -1, -1]
+Consumimos 32 del productor 2
+Buffer = [34, 37, 42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 34, 40, 45, 46, 51, 57, -1, -1, -1, -1]
+Consumimos 34 del productor 0
+Buffer = [37, 42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 34, 40, 45, 46, 51, 57, -1, -1, -1, -1]
+Consumimos 34 del productor 2
+Buffer = [37, 42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 40, 45, 46, 51, 57, -1, -1, -1, -1, -1]
+Consumimos 37 del productor 0
+Buffer = [42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 40, 45, 46, 51, 57, -1, -1, -1, -1, -1]
+Consumimos 40 del productor 2
+Buffer = [42, 45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 45, 46, 51, 57, -1, -1, -1, -1, -1, -1]
+Consumimos 42 del productor 0
+Buffer = [45, 49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 45, 46, 51, 57, -1, -1, -1, -1, -1, -1]
+Consumimos 45 del productor 0
+Buffer = [49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 45, 46, 51, 57, -1, -1, -1, -1, -1, -1]
+Consumimos 45 del productor 2
+Buffer = [49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 46, 51, 57, -1, -1, -1, -1, -1, -1, -1]
+Consumimos 46 del productor 2
+Buffer = [49, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 51, 57, -1, -1, -1, -1, -1, -1, -1, -1]
+Consumimos 49 del productor 0
+Buffer = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 51, 57, -1, -1, -1, -1, -1, -1, -1, -1]
+Consumimos 51 del productor 2
+Buffer = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 57, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Consumimos 57 del productor 2
+Buffer = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+result = [2, 3, 3, 4, 7, 8, 8, 10, 11, 13, 13, 14, 15, 16, 18, 18, 19, 19, 21, 22, 23, 24, 25, 28, 28, 29, 30, 30, 31, 32, 32, 34, 34, 37, 40, 42, 45, 45, 46, 49, 51, 57]
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ python3 practica1conlistadelistas.pu[Ky
+Productor 0 almacenando 1
+Productor 0 almacenando 2
+Productor 0 almacenando 6
+Productor 2 almacenando 3
+Productor 2 almacenando 5
+Productor 2 almacenando 10
+Productor 2 almacenando 14
+Productor 2 almacenando 15
+Productor 2 almacenando 19
+Productor 2 almacenando 20
+Productor 2 almacenando 23
+Productor 2 almacenando 26
+Productor 2 almacenando 31
+Productor 0 almacenando 7
+Productor 1 almacenando 5
+Productor 0 almacenando 10
+Productor 1 almacenando 9
+Productor 0 almacenando 11
+Productor 1 almacenando 10
+Productor 0 almacenando 16
+Productor 1 almacenando 11
+Productor 0 almacenando 20
+Productor 0 almacenando 23
+Productor 1 almacenando 16
+Productor 1 almacenando 21
+Productor 0 almacenando 24
+Consumimos 1 del productor 0
+Buffer = [[2, 6, 7, 10, 11, 16, 20, 23, 24], [5, 9, 10, 11, 16, 21], [3, 5, 10, 14, 15, 19, 20, 23, 26, 31]]
+Productor 1 almacenando 27
+Productor 1 almacenando 31
+Productor 1 almacenando 37
+Productor 0 almacenando 25
+Consumimos 2 del productor 0
+Productor 0 almacenando 29
+Buffer = [[6, 7, 10, 11, 16, 20, 23, 24, 25, 29], [5, 9, 10, 11, 16, 21, 27, 31, 37, -1], [3, 5, 10, 14, 15, 19, 20, 23, 26, 31]]
+Consumimos 3 del productor 2
+Productor 2 almacenando 33
+Buffer = [[6, 7, 10, 11, 16, 20, 23, 24, 25, 29], [5, 9, 10, 11, 16, 21, 27, 31, 37, -1], [5, 10, 14, 15, 19, 20, 23, 26, 31, 33]]
+Consumimos 5 del productor 1
+Buffer = [[6, 7, 10, 11, 16, 20, 23, 24, 25, 29], [9, 10, 11, 16, 21, 27, 31, 37, -1], [5, 10, 14, 15, 19, 20, 23, 26, 31, 33]]
+Consumimos 5 del productor 2
+Productor 2 almacenando 38
+Buffer = [[6, 7, 10, 11, 16, 20, 23, 24, 25, 29], [9, 10, 11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 6 del productor 0
+Productor 0 almacenando 31
+Buffer = [[7, 10, 11, 16, 20, 23, 24, 25, 29, 31], [9, 10, 11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 7 del productor 0
+Productor 0 almacenando 37
+Buffer = [[10, 11, 16, 20, 23, 24, 25, 29, 31], [9, 10, 11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 9 del productor 1
+Buffer = [[10, 11, 16, 20, 23, 24, 25, 29, 31, 37], [10, 11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 10 del productor 0
+Buffer = [[11, 16, 20, 23, 24, 25, 29, 31, 37, -1], [10, 11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 10 del productor 1
+Buffer = [[11, 16, 20, 23, 24, 25, 29, 31, 37, -1], [11, 16, 21, 27, 31, 37, -1], [10, 14, 15, 19, 20, 23, 26, 31, 33, 38]]
+Consumimos 10 del productor 2
+Productor 2 almacenando 40
+Buffer = [[11, 16, 20, 23, 24, 25, 29, 31, 37, -1], [11, 16, 21, 27, 31, 37, -1], [14, 15, 19, 20, 23, 26, 31, 33, 38, 40]]
+Consumimos 11 del productor 0
+Buffer = [[16, 20, 23, 24, 25, 29, 31, 37, -1], [11, 16, 21, 27, 31, 37, -1], [14, 15, 19, 20, 23, 26, 31, 33, 38, 40]]
+Consumimos 11 del productor 1
+Buffer = [[16, 20, 23, 24, 25, 29, 31, 37, -1], [16, 21, 27, 31, 37, -1], [14, 15, 19, 20, 23, 26, 31, 33, 38, 40]]
+Consumimos 14 del productor 2
+Productor 2 almacenando 46
+Buffer = [[16, 20, 23, 24, 25, 29, 31, 37, -1], [16, 21, 27, 31, 37, -1], [15, 19, 20, 23, 26, 31, 33, 38, 40, 46]]
+Consumimos 15 del productor 2
+Productor 2 almacenando 48
+Buffer = [[16, 20, 23, 24, 25, 29, 31, 37, -1], [16, 21, 27, 31, 37, -1], [19, 20, 23, 26, 31, 33, 38, 40, 46, 48]]
+Consumimos 16 del productor 0
+Buffer = [[20, 23, 24, 25, 29, 31, 37, -1], [16, 21, 27, 31, 37, -1], [19, 20, 23, 26, 31, 33, 38, 40, 46, 48]]
+Consumimos 16 del productor 1
+Buffer = [[20, 23, 24, 25, 29, 31, 37, -1], [21, 27, 31, 37, -1], [19, 20, 23, 26, 31, 33, 38, 40, 46, 48]]
+Consumimos 19 del productor 2
+Productor 2 almacenando 49
+Buffer = [[20, 23, 24, 25, 29, 31, 37, -1], [21, 27, 31, 37, -1], [20, 23, 26, 31, 33, 38, 40, 46, 48, 49]]
+Consumimos 20 del productor 0
+Buffer = [[23, 24, 25, 29, 31, 37, -1], [21, 27, 31, 37, -1], [20, 23, 26, 31, 33, 38, 40, 46, 48, 49]]
+Consumimos 20 del productor 2
+Productor 2 almacenando 54
+Buffer = [[23, 24, 25, 29, 31, 37, -1], [21, 27, 31, 37, -1], [23, 26, 31, 33, 38, 40, 46, 48, 49, 54]]
+Consumimos 21 del productor 1
+Buffer = [[23, 24, 25, 29, 31, 37, -1], [27, 31, 37, -1], [23, 26, 31, 33, 38, 40, 46, 48, 49, 54]]
+Consumimos 23 del productor 0
+Buffer = [[24, 25, 29, 31, 37, -1], [27, 31, 37, -1], [23, 26, 31, 33, 38, 40, 46, 48, 49, 54]]
+Consumimos 23 del productor 2
+Productor 2 almacenando 60
+Buffer = [[24, 25, 29, 31, 37, -1], [27, 31, 37, -1], [26, 31, 33, 38, 40, 46, 48, 49, 54, 60]]
+Consumimos 24 del productor 0
+Buffer = [[25, 29, 31, 37, -1], [27, 31, 37, -1], [26, 31, 33, 38, 40, 46, 48, 49, 54, 60]]
+Consumimos 25 del productor 0
+Buffer = [[29, 31, 37, -1], [27, 31, 37, -1], [26, 31, 33, 38, 40, 46, 48, 49, 54, 60]]
+Consumimos 26 del productor 2
+Productor 2 almacenando 64
+Buffer = [[29, 31, 37, -1], [27, 31, 37, -1], [31, 33, 38, 40, 46, 48, 49, 54, 60, 64]]
+Consumimos 27 del productor 1
+Buffer = [[29, 31, 37, -1], [31, 37, -1], [31, 33, 38, 40, 46, 48, 49, 54, 60, 64]]
+Consumimos 29 del productor 0
+Buffer = [[31, 37, -1], [31, 37, -1], [31, 33, 38, 40, 46, 48, 49, 54, 60, 64]]
+Consumimos 31 del productor 0
+Buffer = [[37, -1], [31, 37, -1], [31, 33, 38, 40, 46, 48, 49, 54, 60, 64]]
+Consumimos 31 del productor 1
+Buffer = [[37, -1], [37, -1], [31, 33, 38, 40, 46, 48, 49, 54, 60, 64]]
+Consumimos 31 del productor 2
+Productor 2 almacenando 68
+Buffer = [[37, -1], [37, -1], [33, 38, 40, 46, 48, 49, 54, 60, 64, 68]]
+Consumimos 33 del productor 2
+Buffer = [[37, -1], [37, -1], [38, 40, 46, 48, 49, 54, 60, 64, 68, -1]]
+Consumimos 37 del productor 0
+Buffer = [[-1], [37, -1], [38, 40, 46, 48, 49, 54, 60, 64, 68, -1]]
+Consumimos 37 del productor 1
+Buffer = [[-1], [-1], [38, 40, 46, 48, 49, 54, 60, 64, 68, -1]]
+Consumimos 38 del productor 2
+Buffer = [[-1], [-1], [40, 46, 48, 49, 54, 60, 64, 68, -1]]
+Consumimos 40 del productor 2
+Buffer = [[-1], [-1], [46, 48, 49, 54, 60, 64, 68, -1]]
+Consumimos 46 del productor 2
+Buffer = [[-1], [-1], [48, 49, 54, 60, 64, 68, -1]]
+Consumimos 48 del productor 2
+Buffer = [[-1], [-1], [49, 54, 60, 64, 68, -1]]
+Consumimos 49 del productor 2
+Buffer = [[-1], [-1], [54, 60, 64, 68, -1]]
+Consumimos 54 del productor 2
+Buffer = [[-1], [-1], [60, 64, 68, -1]]
+Consumimos 60 del productor 2
+Buffer = [[-1], [-1], [64, 68, -1]]
+Consumimos 64 del productor 2
+Buffer = [[-1], [-1], [68, -1]]
+Consumimos 68 del productor 2
+Buffer = [[-1], [-1], [-1]]
+result = [1, 2, 3, 5, 5, 6, 7, 9, 10, 10, 10, 11, 11, 14, 15, 16, 16, 19, 20, 20, 21, 23, 23, 24, 25, 26, 27, 29, 31, 31, 31, 33, 37, 37, 38, 40, 46, 48, 49, 54, 60, 64, 68]
+]0;usuario@usuario-X540SA: ~/Practica1[01;32musuario@usuario-X540SA[00m:[01;34m~/Practica1[00m$ exit
+
+Script done on 2022-03-05 23:12:35+01:00 [COMMAND_EXIT_CODE="0"]
